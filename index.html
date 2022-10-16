@@ -96,21 +96,19 @@
         <h1 id="安装-nodejs"><a href="#安装-nodejs" class="headerlink" title="安装 nodejs"></a>安装 nodejs</h1><pre><code>因官网下载太慢，这里使用nodejs的国内网站和git-bash的镜像网站进行下载
 nodejs链接：http://nodejs.cn/download/
 nodejs下载地址：https://cdn.npmmirror.com/binaries/node/v16.17.0/node-v16.17.0-x64.msi
-
-nodejs安装教程：
 </code></pre>
-<h1 id="安装-git-bash"><a href="#安装-git-bash" class="headerlink" title="安装 git-bash"></a>安装 git-bash</h1><pre><code>git-bash链接：https://registry.npmmirror.com/binary.html?path=git-for-windows/
+<h2 id="nodejs安装教程"><a href="#nodejs安装教程" class="headerlink" title="nodejs安装教程"></a>nodejs安装教程</h2><h1 id="安装-git-bash"><a href="#安装-git-bash" class="headerlink" title="安装 git-bash"></a>安装 git-bash</h1><pre><code>git-bash链接：https://registry.npmmirror.com/binary.html?path=git-for-windows/
 git-bash下载地址：https://cdn.npmmirror.com/binaries/git-for-windows/v2.38.0.windows.1/Git-2.38.0-64-bit.exe
     
-git-bash安装教程：
 </code></pre>
-<h1 id="开始搭建hexo："><a href="#开始搭建hexo：" class="headerlink" title="开始搭建hexo："></a>开始搭建hexo：</h1><pre><code>在git-bash中执行命令
+<h2 id="git-bash安装教程"><a href="#git-bash安装教程" class="headerlink" title="git-bash安装教程"></a>git-bash安装教程</h2><h1 id="开始搭建hexo："><a href="#开始搭建hexo：" class="headerlink" title="开始搭建hexo："></a>开始搭建hexo：</h1><pre><code>在git-bash中执行命令
 npm install hexo-cli -g	#安装博客框架
 执行 hexo init		#生成博客的站点目录
 执行命令 hexo s 可以启动本地博客，博客显示的内容
 在站点目录的 source/_posts/ 路径下
 修改配置文件
-在github注册并新建一个仓库，仓库名字格式为 自定义.github.io，以我的为例：zzfxdyn.github.io ，如果仓库是的可见性是私人的则需要修改仓库的设置，将仓库设为公开，否则博客即使成功部署也不能在公网访问，然后将该仓库生成的ssh链接复制下来，打开刚刚创建的站点目录下的 _config.yml，
+在github注册并新建一个仓库，仓库名字格式为 自定义.github.io，以我的为例：zzfxdyn.github.io ，如果仓库是的可见性是私人的
+则需要修改仓库的设置，将仓库设为公开，否则博客即使成功部署也不能在公网访问，然后将该仓库生成的ssh链接复制下来，打开刚刚创建的站点目录下的 _config.yml，
 vim _config.yml
 在该文件的最下面，有一段代码：
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/one-command-deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27; &#x27;</span></span><br></pre></td></tr></table></figure>
@@ -131,7 +129,7 @@ cat id_rsa.pub		#显示id_rsa.pub的内容，然后鼠标选中复制
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9bev21r0000dkw28xkb5z9y" data-title="搭建hexo教程" class="article-share-link">分享</a>
+      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9bj4lqc0000vsw2h2bk5v5f" data-title="搭建hexo教程" class="article-share-link">分享</a>
       
       
       
