@@ -14,7 +14,7 @@
 <meta property="og:description" content="安装 nodejs因官网下载太慢，这里使用nodejs的国内网站和git-bash的镜像网站进行下载 nodejs链接：http:&#x2F;&#x2F;nodejs.cn&#x2F;download&#x2F; nodejs下载地址：https:&#x2F;&#x2F;cdn.npmmirror.com&#x2F;binaries&#x2F;node&#x2F;v16.17.0&#x2F;node-v16.17.0-x64.msi  nodejs安装教程：  安装 git-bashgit-ba">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-10-16T02:29:00.000Z">
-<meta property="article:modified_time" content="2022-10-16T02:45:31.977Z">
+<meta property="article:modified_time" content="2022-10-16T02:48:03.086Z">
 <meta property="article:author" content="zzfxdyn">
 <meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary">
@@ -119,7 +119,6 @@ vim _config.yml
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/one-command-deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27; &#x27;</span></span><br></pre></td></tr></table></figure>
 将代码更改为：
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/one-command-deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span>	#部署博客类型</span><br><span class="line"> repo: git@github.com:zzfxdyn/zzfxdyn.github.io.git	#仓库生成的链接</span><br><span class="line"> branch: main		#仓库默认分支</span><br></pre></td></tr></table></figure>
-
 同时将该文件中url：http://example.com改为 https://仓库名
 npm install hexo-deployer-git --save	#安装博客部署插件
 生成ssh密钥
@@ -135,7 +134,7 @@ cat id_rsa.pub		#显示id_rsa.pub的内容，然后鼠标选中复制
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9aqnjru00005cw2gykpd46u" data-title="搭建hexo教程" class="article-share-link">分享</a>
+      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9be97qr0000ukw2hldwa13m" data-title="搭建hexo教程" class="article-share-link">分享</a>
       
       
       

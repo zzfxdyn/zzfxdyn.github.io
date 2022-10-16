@@ -116,7 +116,6 @@ vim _config.yml
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/one-command-deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27; &#x27;</span></span><br></pre></td></tr></table></figure>
 将代码更改为：
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Deployment</span><br><span class="line">## Docs: https:<span class="comment">//hexo.io/docs/one-command-deployment</span></span><br><span class="line">deploy:</span><br><span class="line">  type: <span class="string">&#x27;git&#x27;</span>	#部署博客类型</span><br><span class="line"> repo: git@github.com:zzfxdyn/zzfxdyn.github.io.git	#仓库生成的链接</span><br><span class="line"> branch: main		#仓库默认分支</span><br></pre></td></tr></table></figure>
-
 同时将该文件中url：http://example.com改为 https://仓库名
 npm install hexo-deployer-git --save	#安装博客部署插件
 生成ssh密钥
@@ -132,7 +131,7 @@ cat id_rsa.pub		#显示id_rsa.pub的内容，然后鼠标选中复制
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9aqnjru00005cw2gykpd46u" data-title="搭建hexo教程" class="article-share-link">分享</a>
+      <a data-url="https://zzfxdyn.github.io/2022/10/16/%E6%90%AD%E5%BB%BAhexo%E6%95%99%E7%A8%8B/" data-id="cl9be97qr0000ukw2hldwa13m" data-title="搭建hexo教程" class="article-share-link">分享</a>
       
       
       
